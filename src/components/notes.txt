@@ -1,0 +1,8 @@
+project showcase
+About
+Heros section
+contact/ Call-to action
+testimonials === none
+skills and tools
+certifications and awards
+ footer
