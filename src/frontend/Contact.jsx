@@ -21,7 +21,8 @@ const Contact = () => {
       );
   };
   return (
-      <div className="absolute left-1/4 top-1/5">
+    <div className="flex justify-center my-10">
+      <div>
           <h2 className="font-semi-bold text-3xl mb-4 capitalize">My Contact Information</h2>
           <div className="contact">
               <p>For easy connectivity, here is my contact information</p>
@@ -48,8 +49,8 @@ const Contact = () => {
                   <a href="#">Telegram</a>
                   <a href="#">Discord</a>
               </div>
-      </div>
-      {/* <Footer /> */}
+        </div>
+        </div>
     </div>
   )
 }

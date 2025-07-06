@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Decentralized Boda Dispatch",
+      "description": "A decentralized boda service, owned by the user, no central controllers",
+      "content": "This is a platform where boda riders and clients agree on a trip and fare, payment is done automatically after the trip is marked by the user as complete",
+      "github": "https://github.com/Elijah-ug",
+      "website": "https://project.com",
+      "video": "https://project.com"
+    },
+    {
+        "title": "Cross Chain Yield Farming ",
+        "description": "A platform to help yield farmers rebalance their invested money in case of APY changes",
+        "content": "This is a platform where yield farmers deposit their cash for the system to invest and keeps track of APY changes which helps auto rebalancing to the pool or protocol with the highest APY. Due to lack of testing APIs for pools and testing Decentralized Liquidity protocols, I used DeFillama's api and mockprotocols ",
+        "github": "https://github.com/Elijah-ug",
+        "website": "https://project.com",
+        "video": "https://project.com"
+      },
+      {
+        "title": "Decentralized Rental System",
+        "description": "A platform where Landlords and Tenants do seamless, transparent and trustless services ",
+        "content": "This is a platform where Landlords post their property, including rent prices, location and period, the tenant requests to rent the property, the landlord signs it and the rest of the tasks is left to the trustless system (Smart Contract) including payment and notification at the end of the rnting period",
+        "github": "https://github.com/Elijah-ug",
+        "website": "https://project.com",
+        "video": "https://project.com"
+      }
+  ]

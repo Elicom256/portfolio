@@ -1,20 +1,20 @@
 import React, { useState } from 'react'
 import "./App.css"
-import HeroSection from './components/HeroSection'
-import About from './components/About'
-import Tools from './components/Tools'
-import Contact from './components/Contact'
-import Home from './components/Home'
+import HeroSection from './frontend/HeroSection'
+import About from './frontend/About'
+import Tools from './frontend/Tools'
+import Contact from './frontend/Contact'
+import Home from './frontend/Home'
 import Projects from './pages/Projects'
 import Resume from './pages/Resume'
 import { Route, Routes } from 'react-router-dom'
 import NavBar from './nav/NavBar'
-import Container from './components/Container'
-import Footer from './components/Footer'
+import Footer from './frontend/Footer'
 const App = () => {
   const [isChecked, setIsChecked] = useState( true)
   return (
-    <div data-theme={isChecked ? "dark" : "light"} className={`min-h-screen flex flex-col bg-[#121212] `}>
+    <div data-theme={isChecked ? "dark" : "light"} className={`flex flex-col min-h-screen bg-[#121212] `}>
+      <div>
   <NavBar />
   <label htmlFor="theme-toggle" className="flex items-center gap-2 absolute top-4 right-4">
   {/* <span className="text-sm text-yellow-400">Dark Mode</span> */}
@@ -38,41 +38,16 @@ const App = () => {
       <Route path="projects" element={<Projects />} />
       <Route path="resume" element={<Resume />} />
     </Routes>
-  </div>
-
-  {/* Footer */}
-  <footer className=" p-4 mt-auto">
+        </div>
+        {/* Footer */}
+  <footer className="">
     <Footer />
   </footer>
+        </div>
+
+
 </div>
 
-
-
-    // <div data-theme={isChecked ? "dark" : "light"} className='theme'>
-    // <div className="cont">
-    //   <NavBar />
-    //     {/* <Container/> */}
-    //     <div className="tog">
-    //       <input type="checkbox" name="check" id="check" className='toggle' onChange={() => setIsChecked(!isChecked)} />
-    //           <label htmlFor="check"></label>
-    //     </div>
-    //     <div className="mb-10 ">
-    //   <Routes>
-    //     <Route path='/' element={<Home/>}/>
-    //     <Route path='about' element={<About />}/>
-    //     <Route path='hero-section' element={<HeroSection />}/>
-    //     <Route path='tools' element={<Tools />}/>
-    //     <Route path='contact' element={<Contact />}/>
-    //     <Route path='projects' element={<Projects />}/>
-    //     <Route path='resume' element={<Resume/>}/>
-    //       </Routes>
-    //     </div>
-    //     <div className="footer">
-    //   <Footer/>
-    //   </div>
-    //   </div>
-
-    //   </div>
   )
 }
 

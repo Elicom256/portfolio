@@ -13,7 +13,7 @@ const HeroSection = () => {
         <div className="name mt-20 ">
           <h3 className="font-semi-bold text-2xl mb-4 capitalize">Full Name: Elijah Talent Mugisha</h3>
           <h3 className="font-semi-bold text-2xl mb-4 capitalize">Other Name: Elicom</h3>
-          <h3 className="font-semi-bold text-2xl mb-4 capitalize">Title: Smart Contract developer</h3>
+          <h3 className="font-semi-bold text-2xl mb-4 capitalize">Title: Software Engineer</h3>
           </div>
           </div>
         <div className="pic ">
