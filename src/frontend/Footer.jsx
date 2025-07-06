@@ -10,7 +10,7 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-bold mb-2">Acknowledgement</h3>
           <p className="text-gray-300">
-            I would like to sincerely thank my brother, Mucu, whose unwavering support
+            I would like to sincerely thank my brother, <span className="font-extrabold text-green-400">Mucu</span>, whose unwavering support
             and dedication have been instrumental in ensuring my Web3 learning journey
             continues smoothly and successfully.
           </p>
