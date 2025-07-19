@@ -4,15 +4,14 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8 px-6 md:px-16 lg:px-24">
+    <footer className="bg-gray-800 text-white mt-20 py-8 px-6 md:px-16 lg:px-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* School info */}
         <div>
           <h3 className="text-xl font-bold mb-2">Acknowledgement</h3>
           <p className="text-gray-300">
-            I would like to sincerely thank my brother, <span className="font-extrabold text-green-400">Mucu</span>, whose unwavering support
-            and dedication have been instrumental in ensuring my Web3 learning journey
-            continues smoothly and successfully.
+            I would like to sincerely thank my brother, <span
+              className="font-extrabold text-green-400">Mucu</span> for the unwavering support
           </p>
         </div>
 
