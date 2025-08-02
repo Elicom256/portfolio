@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import logo from "../pics/elicom.png"
 
 const NavBar = () => {
   return (
     <div className="flex items-center justify-between px-20 py-4 bg-gray-900 text-white">
-      <Link className="" to="/">Elicom</Link>
+      <Link className="w-16 rounded-full" to="/"> <img src={logo} alt="" /></Link>
     <div className="flex gap-8">
       <NavLink to="/">Home</NavLink>
       <NavLink to="about">About</NavLink>
