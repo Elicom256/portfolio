@@ -1,31 +1,20 @@
-import React from 'react'
-import "../styles/hero.css"
-import Footer from './Footer'
+import React from 'react';
+
 const About = () => {
   return (
-      <div>
-          <div className="flex justify-center my-10">
-              <div>
-              <h2 className="font-semi-bold text-3xl mb-4 capitalize">About me</h2>
-              <div className="desc mt-5">
-                  <h4 className="font-semi-bold text-xl capitalize mb-2">I'm an forcused junior Software Engineer</h4>
-                  <div className="div">I have a solid understanding of front end development patterns <br />
-                      with high skills obtained from avariety of resources and Projects<br />
-                      I'm a great fun of learning which continuously improves my skills <br />
-                      In addition, I'm always eager and waiting to work with others to improve my skills <br />
-                      I started my journey of learning back in 2022
-                  </div>
+    <section className="px-6 py-10 mx-4 md:mx-20 bg-gray-600 rounded-xl mt-10">
+      <h2 className="text-3xl font-bold text-center mb-6 text-yellow-600">About Me</h2>
+      <p className="text-lg leading-8 max-w-3xl mx-auto">
+        I'm a focused junior Software Engineer with a solid understanding of frontend development patterns.
+        I’ve gained strong skills through building projects, exploring new tools, and engaging in constant learning.
+        I enjoy collaboration and always seek ways to improve, especially in Web3 and smart contract development.
+      </p>
+      <div className="mt-6 text-center text-gray-100">
+        <h4 className="text-2xl font-semibold mb-2">🚀 Current Exploration</h4>
+        <p>Building and deploying EVM-compatible smart contracts with a focus on scalability and real-world use cases.</p>
+      </div>
+    </section>
+  );
+};
 
-              </div>
-              <div className="mt-5">
-                  <h4 className="font-bold text-xl capitalize mb-2">My Current Exploration</h4>
-                  <p>I'm currently building EVM compartible Smart Contract in the web3.0 space + testing and deployment</p>
-              </div>
-              </div>
-              </div>
-
-    </div>
-  )
-}
-
-export default About
+export default About;

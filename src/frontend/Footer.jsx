@@ -31,9 +31,7 @@ const Footer = () => {
           <h3 className="text-xl font-bold mb-2">Contact</h3>
           <p className="text-gray-300">📞 +256 781490899</p>
           <p className="text-gray-300">✉️ elicomelijah330@gmail.com</p>
-          <div className=" mt-4">
-            <a href="https://github.com/Elijah-ug" className="hover:text-gray-100"><FaGithub className="ml-10" /></a>
-          </div>
+          
         </div>
       </div>
 

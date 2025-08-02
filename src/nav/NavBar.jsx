@@ -3,12 +3,11 @@ import { Link, NavLink } from 'react-router-dom'
 
 const NavBar = () => {
   return (
-    <div className="flex items-center justify-between px-10 py-4 bg-gray-900 text-white">
+    <div className="flex items-center justify-between px-20 py-4 bg-gray-900 text-white">
       <Link className="" to="/">Elicom</Link>
     <div className="flex gap-8">
       <NavLink to="/">Home</NavLink>
       <NavLink to="about">About</NavLink>
-      <NavLink to="hero-section">Hero's Section</NavLink>
       <NavLink to="tools">Tools</NavLink>
       <NavLink to="contact">Contact</NavLink>
       <NavLink to="projects">Projects</NavLink>

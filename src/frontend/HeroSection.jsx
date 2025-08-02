@@ -1,31 +1,20 @@
-import React from 'react'
-import picture from "../pics/me.jpeg"
-import "../styles/hero.css"
-import Footer from './Footer'
+import React from 'react';
+import picture from "../pics/bg-null.png";
+
 const HeroSection = () => {
   return (
-    <div className=" mt-16">
-      <div className="flex gap-20 justify-center">
-        <div className="text">
-      <div className="head font-bold text-4xl mb-10 capitalize text-center ">
-          <h2>Here is how I'm recognised</h2>
+    <section className="mt-24 px-6 py-10 text-center bg-gray-600 shadow-md rounded-xl mx-4 md:mx-20">
+      <h2 className="text-4xl font-bold mb-6 text-yellow-600">👋 Meet Elijah "Elicom"</h2>
+      <div className="flex flex-col md:flex-row justify-around items-center gap-10">
+        <div className="text-left space-y-4">
+          <p className="text-xl font-semibold">Full Name: <span className="text-green-400 px-3">Elijah Talent Mugisha</span></p>
+          <p className="text-xl font-semibold">Other Name: <span className="text-green-400 px-3">Elicom</span></p>
+          <p className="text-xl font-semibold">Title: <span className="text-green-400 px-3">Software Engineer</span></p>
         </div>
-        <div className="name mt-20 ">
-          <h3 className="font-semi-bold text-2xl mb-4 capitalize">Full Name: Elijah Talent Mugisha</h3>
-          <h3 className="font-semi-bold text-2xl mb-4 capitalize">Other Name: Elicom</h3>
-          <h3 className="font-semi-bold text-2xl mb-4 capitalize">Title: Software Engineer</h3>
-          </div>
-          </div>
-        <div className="pic ">
-          <img className="w-60 rounded-full" src={picture} alt="" />
-        </div>
-
+        <img src={picture} alt="Elicom" className="w-40 h-40 rounded-full shadow-lg object-cover" />
       </div>
-      <div className="mt-10">
-              {/* <Footer/> */}
-          </div>
-    </div>
-  )
-}
+    </section>
+  );
+};
 
-export default HeroSection
+export default HeroSection;
