@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-import "./App.css"
-import HeroSection from './frontend/HeroSection'
-import About from './frontend/About'
+import './App.css';
 import Tools from './frontend/Tools'
 import Contact from './frontend/Contact'
 import Home from './frontend/Home'

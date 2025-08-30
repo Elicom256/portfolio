@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import logo from "../pics/elicom.png"
+import resume from '../pics/resume.pdf';
 
 const NavBar = () => {
   return (
@@ -12,7 +13,7 @@ const NavBar = () => {
       <NavLink to="tools">Tools</NavLink>
       <NavLink to="contact">Contact</NavLink>
       <NavLink to="projects">Projects</NavLink>
-      <NavLink to="resume">Resume</NavLink>
+      <NavLink to={resume} target="_blank" >Resume</NavLink>
       </div>
       </div>
   )

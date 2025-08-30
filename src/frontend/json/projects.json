@@ -1,6 +1,6 @@
 [
     {
-      "title": "Decentralized Boda Dispatch",
+      "title": "BodaBlocks",
       "description": "A decentralized boda service, owned by the user, no central controllers",
       "content": "This is a platform where boda riders and clients agree on a trip and fare, payment is done automatically after the trip is marked by the user as complete",
       "github": "https://github.com/Elijah-ug/boda-dispatch",
@@ -16,11 +16,19 @@
         "video": "https://www.youtube.com/watch?v=qhYGMRE3SiM"
       },
       {
-        "title": "Decentralized Rental System",
+        "title": "RentalBlocks",
         "description": "A platform where Landlords and Tenants do seamless, transparent and trustless services ",
         "content": "This is a platform where Landlords post their property, including rent prices, location and period, the tenant requests to rent the property, the landlord signs it and the rest of the tasks is left to the trustless system (Smart Contract) including payment and notification at the end of the rnting period",
         "github": "https://github.com/Elijah-ug/decentralised-rentals-system",
         "website": "https://project.com",
         "video": "https://www.youtube.com/watch?v=qhYGMRE3SiM"
-      }
+      },
+       {
+         "title": "UtilityBlocks",
+         "description": "A decentralized utility payment system aimed at speed, transparency, low fees and security",
+         "content": "This is a platform where Utility Service providers register their companies, services they provide and their wallet addresses for service consumers to pay directly for the service. Here any service provider can register and normal usual businesses are not limited to this payment gateway",
+         "github": "https://github.com/Elijah-ug/decentralised-rentals-system",
+         "website": "https://project.com",
+         "video": "https://www.youtube.com/watch?v=qhYGMRE3SiM"
+       }
   ]

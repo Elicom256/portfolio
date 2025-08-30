@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white mt-20 py-8 px-6 md:px-16 lg:px-24">
+    <footer className="bg-gray-800 text-white pt-20 py-8 px-6 md:px-16 lg:px-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* School info */}
         <div>
@@ -31,7 +31,7 @@ const Footer = () => {
           <h3 className="text-xl font-bold mb-2">Contact</h3>
           <p className="text-gray-300">📞 +256 781490899</p>
           <p className="text-gray-300">✉️ elicomelijah330@gmail.com</p>
-          
+
         </div>
       </div>
 
