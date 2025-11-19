@@ -1,22 +1,69 @@
-import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
-import logo from "../pics/elicom.png"
-import resume from '../pics/resume.pdf';
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import logo from "../pics/elicom.png";
+import resume from "../pics/resume.pdf";
+import { motion, AnimatePresence } from "framer-motion";
+import { Menu, X } from "lucide-react";
 
 const NavBar = () => {
-  return (
-    <div className="flex items-center justify-between px-20 py-4 bg-gray-900 text-white">
-      <Link className="w-16 rounded-full" to="/"> <img src={logo} alt="" /></Link>
-    <div className="flex gap-8">
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="about">About</NavLink>
-      <NavLink to="tools">Tools</NavLink>
-      <NavLink to="contact">Contact</NavLink>
-      <NavLink to="projects">Projects</NavLink>
-      <NavLink to={resume} target="_blank" >Resume</NavLink>
-      </div>
-      </div>
-  )
-}
+  const [open, setOpen] = React.useState(false);
 
-export default NavBar
+  const links = ["Home", "About", "Tools", "Contact", "Projects"];
+
+  return (
+    <nav className="w-full fixed top-0 left-0  bg-green-600 text-white shadow z-50 font-semibold">
+      <div className="flex items-center justify-between px-3 py-2">
+        {/* flex justify-between items-center px-6 md:px-16 py-4 */}
+        {/* <h1 className="text-2xl font-bold text-blue-700">XYZ Primary School</h1> */}
+        <div className="h-10 w-10 ">
+          <img src={logo} className="rounded-full object-cover" alt="XYZ P/S" />
+        </div>
+        {/* theme */}
+
+        <div className="hidden md:flex justify-end gap-6 ">
+          {links.map((link, id) => (
+            <NavLink
+              key={id}
+              to={link === "Home" ? "/" : link.toLowerCase()}
+              className=" p-1 hover:text-blue-600 transition capitalize"
+            >
+              {link}
+            </NavLink>
+          ))}
+        </div>
+        <div className=" flex md:hidden items-center gap-3">
+          {/* <ToggleTheme /> */}
+          <button className="md:hidden " onClick={() => setOpen(!open)} aria-label="Toggle Menu">
+            {open ? <X /> : <Menu />}
+          </button>
+        </div>
+      </div>
+
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.3 }}
+            className="md:hidden bg-white border-t "
+          >
+            <div className="text-end mt-3"></div>
+            {links.map((link, index) => (
+              <NavLink
+                key={index}
+                to={link === "Home" ? "/" : link.toLowerCase()}
+                onClick={() => setOpen(false)}
+                className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 capitalize"
+              >
+                {link}
+              </NavLink>
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </nav>
+  );
+};
+
+export default NavBar;

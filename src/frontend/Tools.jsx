@@ -1,18 +1,27 @@
 import { FaCss3, FaHardHat } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
-import { SiChainlink, SiEthers, SiExpress, SiJavascript, SiOpenzeppelin, SiPostgresql, SiSolidity, SiTailwindcss } from "react-icons/si";
+import {
+  SiChainlink,
+  SiEthers,
+  SiExpress,
+  SiJavascript,
+  SiOpenzeppelin,
+  SiPostgresql,
+  SiSolidity,
+  SiTailwindcss,
+} from "react-icons/si";
 
 const Tools = () => {
   return (
-    <div className="py-10 px-4 md:px-10">
+    <div className="py-10 px-3 md:px-10 flex items-center justify-center">
       <div className="">
         <h2 className="head font-bold text-4xl capitalize text-center ">Skills and Tools</h2>
         <div className="tech ">
           <p className="text-center my-2">
             These're the technologies that gear my Full stack development blockchain development
           </p>
-          <div className="flex gap-5 py-4">
-            <div className="px-2 py-4 bg-gray-700 rounded w-lg transition-all duration-300 hover:scale-103 ease-in-out ">
+          <div className="flex flex-col lg:flex-row  gap-5 py-4">
+            <div className="w-full max-w-sm px-2 py-4 bg-gray-700 rounded  transition-all duration-300 hover:scale-103 ease-in-out ">
               <h3 className="head font-semi-bold text-xl my-2 capitalize  text-amber-400 ">Frontend</h3>
               <ul className="list-none">
                 <li className="flex items-center gap-2">
@@ -27,7 +36,7 @@ const Tools = () => {
               </ul>
             </div>
 
-            <div className="px-2 py-4  bg-gray-700 rounded w-lg transition-all duration-300 hover:scale-103 ease-in-out">
+            <div className=" w-full max-w-sm px-2 py-4  bg-gray-700 rounded  transition-all duration-300 hover:scale-103 ease-in-out">
               <h3 className="head font-semi-bold text-xl my-2 capitalize text-amber-400 ">Backend </h3>
               <ul className="list-none">
                 <li className="flex items-center gap-2">
@@ -42,7 +51,7 @@ const Tools = () => {
               </ul>
             </div>
 
-            <div className="px-2 py-4 bg-gray-700 rounded w-lg transition-all duration-300 hover:scale-103 ease-in-out">
+            <div className="w-full max-w-sm px-2 py-4 bg-gray-700 rounded  transition-all duration-300 hover:scale-103 ease-in-out">
               <h3 className="head font-semi-bold text-xl my-2 capitalize  text-amber-400">Blockchain</h3>
               <ul className="list-none">
                 <li className="flex items-center gap-2">
@@ -67,6 +76,6 @@ const Tools = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Tools
+export default Tools;
