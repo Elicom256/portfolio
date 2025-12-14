@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="">
       <div
-        className="relative  w-full min-h-screen bg-no-repeat bg-cover bg-center"
+        className="relative  w-full min-h-screen bg-no-repeat bg-cover bg-center px-3 sm:px-10"
         style={{
           backgroundImage: `url(${eli3})`,
           backgroundPosition: "center",

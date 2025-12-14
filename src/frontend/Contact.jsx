@@ -24,7 +24,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className="px-3 lg:px-10 pt-23">
+    <div className="px-3 lg:px-10 pt-23 pb-7">
       <div className="grid place-items-center">
         <h2 className=" font-semi-bold lg:text-3xl text-lg  capitalize">My Contact Information</h2>
 
@@ -53,7 +53,6 @@ const Contact = () => {
         </div>
         <div className="flex items-center gap-2">
           Reach me via my socials below, I'm available and open to any type of conversation aligned with my carrier
-          
         </div>
         <div className="flex items-center gap-5 pt-5">
           <a href="elicomelijah330@gmail.com" target="_blank" className="">

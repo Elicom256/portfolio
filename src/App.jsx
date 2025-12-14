@@ -13,7 +13,7 @@ import { MobileNav } from "./nav/MobileNav";
 const App = () => {
   const [isChecked, setIsChecked] = useState(true);
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen ">
       {/* Main route area */}
       <div className="flex-grow">
         <NavBar />
