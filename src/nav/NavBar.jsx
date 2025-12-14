@@ -3,7 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../pics/elicom.png";
 import resume from "../pics/resume.pdf";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Github, Menu, X } from "lucide-react";
+import { FaGithubAlt } from "react-icons/fa6";
 
 const NavBar = () => {
   const [open, setOpen] = React.useState(false);
@@ -11,12 +12,16 @@ const NavBar = () => {
   const links = ["Home", "About", "Tools", "Contact", "Projects"];
 
   return (
-    <nav className="w-full fixed top-0 left-0  bg-green-600 text-white shadow z-50 font-semibold">
-      <div className="flex items-center justify-between px-3 py-2">
+    <nav className=" w-full fixed top-0 left-0  bg-green-600 text-white shadow z-50 font-semibold">
+      <div className="flex items-center justify-between p-3">
         {/* flex justify-between items-center px-6 md:px-16 py-4 */}
         {/* <h1 className="text-2xl font-bold text-blue-700">XYZ Primary School</h1> */}
-        <div className="h-10 w-10 ">
-          <img src={logo} className="rounded-full object-cover" alt="XYZ P/S" />
+        <div className=" text-gray-900">
+          <NavLink to="https://github.com/Elijah-ug">
+            {" "}
+            <Github />
+          </NavLink>
+          {/* <img src={logo} className="rounded-full object-cover" alt="XYZ P/S" /> */}
         </div>
         {/* theme */}
 

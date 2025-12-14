@@ -15,7 +15,7 @@ const AllProjects = () => {
   //   }
   // ]
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-23">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1 ">
       {projects.map((project, index) => (
         <Card key={index} className="w-full max-w-sm bg-gray-700 border-none text-gray-200">
           <CardHeader>
@@ -36,11 +36,10 @@ const AllProjects = () => {
               <a href={project.website}>
                 <FaLink className="text-blue-300" />
               </a>
-              <a href={project.video}>
+              <a href={project.video || project.website}>
                 <FaYoutube className="text-red-400" />
               </a>
             </div>
-
           </CardFooter>
         </Card>
       ))}

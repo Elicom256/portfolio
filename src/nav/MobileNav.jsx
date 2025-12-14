@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../pics/elicom.png";
 import { FaBars } from "react-icons/fa6";
+import { Github } from "lucide-react";
 export const MobileNav = () => {
   const [showNavLinks, setShowNavLinks] = useState(false);
   return (
-    <div className="sm:hidden flex items-center justify-between sm:px-10 px-3 sm:py-4 py-2 bg-gray-900 text-white">
-      <Link className="w-16 rounded-full" to="/">
+    <div className="flex  items-center justify-between  px-3 py-2 bg-gray-900 text-white">
+      <Link className=" text-gray-900" to="/">
         {" "}
-        <img src={logo} alt="" className="rounded-full" />
+        <Github />
+        {/* <img src={logo} alt="" className="rounded-full" /> */}
       </Link>
       <div className="relative">
         <FaBars onClick={() => setShowNavLinks(true)} className="text-3xl" />
@@ -20,6 +22,7 @@ export const MobileNav = () => {
             <NavLink to="tools">Tools</NavLink>
             <NavLink to="contact">Contact</NavLink>
             <NavLink to="projects">Projects</NavLink>
+            {/* <NavLink to=""> </NavLink> */}
           </div>
         }
       </div>

@@ -17,17 +17,17 @@ const App = () => {
       {/* Main route area */}
       <div className="flex-grow">
         <NavBar />
-       <div className="">
-         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<AboutMe />} />
-          {/* <Route path="hero-section" element={<HeroSection />} /> */}
-          <Route path="tools" element={<Tools />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="resume" element={<Resume />} />
-        </Routes>
-       </div>
+        <div className="">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="about" element={<AboutMe />} />
+            {/* <Route path="hero-section" element={<HeroSection />} /> */}
+            <Route path="tools" element={<Tools />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="resume" element={<Resume />} />
+          </Routes>
+        </div>
       </div>
       {/* Footer */}
       <footer className="">
