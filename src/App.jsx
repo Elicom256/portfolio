@@ -17,7 +17,7 @@ const App = () => {
       {/* Main route area */}
       <div className="flex-grow">
         <NavBar />
-       <div className="pt-23">
+       <div className="">
          <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<AboutMe />} />

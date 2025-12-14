@@ -24,7 +24,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className="px-3 lg:px-10">
+    <div className="px-3 lg:px-10 pt-23">
       <div className="grid place-items-center">
         <h2 className=" font-semi-bold lg:text-3xl text-lg  capitalize">My Contact Information</h2>
 

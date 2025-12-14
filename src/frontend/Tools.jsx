@@ -13,7 +13,7 @@ import {
 
 const Tools = () => {
   return (
-    <div className="py-10 px-3 md:px-10 flex items-center justify-center">
+    <div className="py-10 px-3 md:px-10 flex items-center justify-center pt-23">
       <div className="">
         <h2 className="head font-bold text-4xl capitalize text-center ">Skills and Tools</h2>
         <div className="tech ">

@@ -7,7 +7,7 @@ import About from './about/About';
 
 export default function AboutMe() {
   return (
-    <div className="min-h-screen px-4 py-10 md:px-10 flex flex-col gap-5">
+    <div className="min-h-screen px-4 py-10 md:px-10 flex flex-col gap-5 pt-23">
       <HeroSection />
       <About />
       <Skills />

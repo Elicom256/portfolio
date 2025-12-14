@@ -14,7 +14,7 @@ import {
 
 const TechStack = () => {
   return (
-    <section className="bg-gray-700 rounded p-5 transition-all duration-300 hover:scale-103 ease-in-out">
+    <section className="bg-gray-700 rounded p-5 transition-all duration-300 hover:scale-101 ease-in-out">
       <h2 className="text-3xl font-bold text-center text-yellow-600 mb-4">🛠 My Tech Stack</h2>
       <p className="text-center mb-8">Tools and technologies I use to build full-stack and blockchain solutions.</p>
 

@@ -15,7 +15,7 @@ const AllProjects = () => {
   //   }
   // ]
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-23">
       {projects.map((project, index) => (
         <Card key={index} className="w-full max-w-sm bg-gray-700 border-none text-gray-200">
           <CardHeader>

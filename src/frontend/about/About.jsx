@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
   return (
-    <section className="bg-gray-700 rounded px-3 lg:px-10 transition-all duration-300 hover:scale-103 ease-in-out">
+    <section className="bg-gray-700 rounded px-3 py-5 lg:px-10 transition-all duration-300 hover:scale-101 ease-in-out">
       <h2 className="text-3xl font-bold text-center mb-6 text-yellow-600">About Me</h2>
       <p className="text-lg leading-8 max-w-3xl mx-auto">
         I'm a focused junior Software Engineer with a solid understanding of frontend development patterns. I’ve gained
