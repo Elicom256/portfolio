@@ -36,7 +36,7 @@ const Home = () => {
         </div>
 
         <div className="relative z-10 flex flex-col items-center justify-center py-7 gap-2 text-lg">
-          <div className="w-sm text-white p-5 rounded-md bg-gray-900/70">
+          <div className=" text-white p-5 rounded-md bg-gray-900/70">
             <h3 className="font-semibold pb-2">Currently working on:</h3>
             <ul className="text-sm text-gray-200 flex flex-col gap-1">
               <li>➡️ Dating site</li>
