@@ -16,12 +16,12 @@
     "video": ""
   },
   {
-    "title": "RentalBlocks",
-    "description": "A platform where Landlords and Tenants do seamless, transparent and trustless services ",
-    "content": "This is a platform where Landlords post their property, including rent prices, location and period, the tenant requests to rent the property, the landlord signs it and the rest of the tasks is left to the trustless system (Smart Contract) including payment and notification at the end of the rnting period",
-    "github": "https://github.com/Elijah-ug/decentralised-rentals-system",
-    "website": "https://project.com",
-    "video": "https://www.youtube.com/watch?v=qhYGMRE3SiM"
+    "title": "Afro Invest",
+    "description": "A secure investment platform for African SMEs and investors built for scale and trust.",
+    "content": "A PERN application using PostgreSQL, Express, React, Node, and Prisma ORM to manage portfolios, transactions, and investor workflows with strong data validation.",
+    "github": "https://github.com/Elijah-ug/afro-invest",
+    "website": "https://afro-invest.example.com",
+    "video": ""
   },
   {
     "title": "UtilityBlocks",

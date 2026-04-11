@@ -1,56 +1,81 @@
-import React from "react";
-import { FaDiscord, FaFacebookF, FaGithub, FaTelegramPlane } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { FaDiscord, FaFacebookF, FaGithub, FaTelegramPlane } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8 px-3 md:px-10 flex flex-col gap-5">
-      <div className="grid sm:grid-cols-3 py-2">
-        {/* acknowledgement*/}
-        <div className=" text-center">
-          <h3 className="text-xl font-bold mb-3">Acknowledgement</h3>
-          <p className="text-gray-300">
-            My sincere thanks goes to brother, <span className="font-extrabold text-green-400">Mucu</span>
-          </p>
+    <footer className='bg-slate-950/95 border-t border-slate-800/80 text-slate-300'>
+      <div className='mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8'>
+        <div className='grid gap-10 md:grid-cols-3'>
+          <div className='space-y-4'>
+            <p className='text-sm uppercase tracking-[0.35em] text-amber-300/80'>Elicom</p>
+            <h3 className='text-2xl font-semibold text-white'>Modern Web2 systems built for scale.</h3>
+            <p className='text-slate-400'>
+              Secure apps with clean APIs, professional workflows, and strong product foundations.
+            </p>
+          </div>
+
+          <div className='space-y-4'>
+            <h4 className='text-lg font-semibold text-white'>Quick links</h4>
+            <div className='grid gap-3 text-slate-400'>
+              <Link to='/' className='transition hover:text-amber-300'>
+                Home
+              </Link>
+              <Link to='/about' className='transition hover:text-amber-300'>
+                About
+              </Link>
+              <Link to='/projects' className='transition hover:text-amber-300'>
+                Projects
+              </Link>
+              <Link to='/contact' className='transition hover:text-amber-300'>
+                Contact
+              </Link>
+            </div>
+          </div>
+
+          <div className='space-y-4'>
+            <h4 className='text-lg font-semibold text-white'>Connect</h4>
+            <div className='flex flex-wrap items-center gap-3'>
+              <a
+                href='https://github.com/Elijah-ug'
+                target='_blank'
+                rel='noreferrer'
+                className='inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-slate-800/80 bg-slate-900/80 text-slate-200 transition hover:border-amber-300 hover:text-amber-300'
+              >
+                <FaGithub className='h-5 w-5' />
+              </a>
+              <a
+                href='https://x.com/ElicomElijah'
+                target='_blank'
+                rel='noreferrer'
+                className='inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-slate-800/80 bg-slate-900/80 text-slate-200 transition hover:border-amber-300 hover:text-amber-300'
+              >
+                <FaXTwitter className='h-5 w-5' />
+              </a>
+              <a
+                href='https://t.me/'
+                target='_blank'
+                rel='noreferrer'
+                className='inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-slate-800/80 bg-slate-900/80 text-slate-200 transition hover:border-amber-300 hover:text-amber-300'
+              >
+                <FaTelegramPlane className='h-5 w-5' />
+              </a>
+              <a
+                href='https://discord.com/'
+                target='_blank'
+                rel='noreferrer'
+                className='inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-slate-800/80 bg-slate-900/80 text-slate-200 transition hover:border-amber-300 hover:text-amber-300'
+              >
+                <FaDiscord className='h-5 w-5' />
+              </a>
+            </div>
+          </div>
         </div>
 
-        {/* Contact info */}
-        <div className=" text-center">
-          <h3 className="text-xl font-bold mb-3">Contact</h3>
-          <p className="text-gray-300">📞 +256 781490899</p>
-          <p className="text-gray-300">✉️ elicomelijah330@gmail.com</p>
+        <div className='mt-10 border-t border-slate-800/70 pt-6 text-center text-sm text-slate-500'>
+          &copy; {new Date().getFullYear()} Elijah Mugisha Elicom. All rights reserved.
         </div>
-
-        {/* Quick links */}
-        <div className=" text-center">
-          <h3 className="text-xl font-bold mb-3">My Socials</h3>
-          <ul className="flex items-center justify-center gap-10 text-gray-300">
-            <li>
-              <a href="#academics" className="hover:text-gray-100">
-                <FaFacebookF />
-              </a>
-            </li>
-            <li>
-              <a href="#curriculum" className="hover:text-gray-100">
-                <FaXTwitter />
-              </a>
-            </li>
-            <li>
-              <a href="#departments" className="hover:text-gray-100">
-                <FaTelegramPlane />
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="hover:text-gray-100">
-                <FaDiscord />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="border-t border-gray-700 mt-8 pt-4 text-center text-gray-300 text-sm">
-        &copy; {new Date().getFullYear()} Elijah Mugisha Elicom. All rights reserved.
       </div>
     </footer>
   );
