@@ -1,32 +1,32 @@
 [
   {
-    "title": "BodaBlocks",
-    "description": "A decentralized boda service, owned by the user, no central controllers",
-    "content": "This is a platform where boda riders and clients agree on a trip and fare, payment is done automatically after the trip is marked by the user as complete",
-    "github": "https://github.com/Elijah-ug/boda-dispatch",
-    "website": "https://decentralized-boda-dispatch.vercel.app/",
-    "video": "https://www.youtube.com/watch?v=qhYGMRE3SiM"
+    "title": "KlassApp",
+    "description": "A modern learning platform for students and educators.",
+    "content": "A web platform designed to improve learning access and classroom interaction through structured course delivery and user-friendly navigation.",
+    "github": "https://github.com/Elijah-ug/KlassApp",
+    "website": "https://klassapp.xyz/",
+    "video": ""
   },
   {
-    "title": "E-commerce site",
-    "description": "A platform where local users and sellers meet for business",
-    "content": "This is a platform where users and sellers come together to buy and sell their products in the near by. The system calculates the distance between users and notify them in case of any new product near-by added.",
+    "title": "E-commerce Platform",
+    "description": "A local marketplace connecting nearby buyers and sellers.",
+    "content": "A location-based e-commerce system that allows users to discover and purchase nearby products. It includes distance-based product matching and real-time notifications for newly listed items in a user's area.",
     "github": "https://github.com/Elijah-ug/e-com",
     "website": "https://shopping-cart-mauve-theta.vercel.app/",
     "video": ""
   },
   {
     "title": "Afro Invest",
-    "description": "A secure investment platform for African SMEs and investors built for scale and trust.",
-    "content": "A PERN application using PostgreSQL, Express, React, Node, and Prisma ORM to manage portfolios, transactions, and investor workflows with strong data validation.",
+    "description": "A secure investment platform for African SMEs and investors.",
+    "content": "A full-stack PERN application (PostgreSQL, Express, React, Node.js, Prisma ORM) for managing investments, portfolios, and transactions with strong validation and scalable architecture.",
     "github": "https://github.com/Elijah-ug/afro-invest",
-    "website": "https://afro-invest.example.com",
+    "website": "https://afro-invest.vercel.app/",
     "video": ""
   },
   {
     "title": "UtilityBlocks",
-    "description": "A decentralized utility payment system aimed at speed, transparency, low fees and security",
-    "content": "This is a platform where Utility Service providers register their companies, services they provide and their wallet addresses for service consumers to pay directly for the service. Here any service provider can register and normal usual businesses are not limited to this payment gateway",
+    "description": "A decentralized utility payment system for fast, transparent transactions.",
+    "content": "A blockchain-inspired utility payment platform where service providers register services and wallets, allowing users to pay directly with low fees, transparency, and improved transaction speed across multiple utility categories.",
     "github": "https://github.com/Elijah-ug/decentralised-rentals-system",
     "website": "https://project.com",
     "video": "https://www.youtube.com/watch?v=qhYGMRE3SiM"
