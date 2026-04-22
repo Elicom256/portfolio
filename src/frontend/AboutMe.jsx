@@ -7,7 +7,7 @@ import SectionHeader from './SectionHeader';
 
 export default function AboutMe() {
   return (
-    <div className='min-h-screen px-4 py-10 md:px-10 pt-24 flex flex-col gap-8'>
+    <div className='min-h-screen px-4 py-10 md:px-10 pt-8 flex flex-col gap-8'>
       <SectionHeader
         accent='About'
         title='A modern look at my experience and growth'

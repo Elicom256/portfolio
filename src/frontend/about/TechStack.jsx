@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaReact, FaNodeJs, FaDatabase, FaHardHat, FaGithub, FaCss3Alt } from 'react-icons/fa';
+import { FaLaravel, FaPhp } from 'react-icons/fa6';
 import {
   SiRedux,
   SiTailwindcss,
-  SiMongodb,
   SiPostgresql,
   SiSolidity,
   SiChainlink,
@@ -54,12 +54,20 @@ const TechStack = () => {
               <span>Node.Js</span>
             </div>
             <div className='flex items-center gap-2' title='Express.js'>
-              <SiExpress className='text-gray-950' />
+              <SiExpress className='text-gray-400' />
               <span>Express.Js</span>
             </div>
             <div className='flex items-center gap-2' title='PostgreSQL'>
               <SiPostgresql className='text-blue-500' />
               <span>PostgreSql</span>
+            </div>
+             <div className='flex items-center gap-2' title='PostgreSQL'>
+              <FaPhp className='text-blue-500' />
+              <span>PHP</span>
+            </div>
+             <div className='flex items-center gap-2' title='PostgreSQL'>
+              <FaLaravel className='text-red-500' />
+              <span>Laravel</span>
             </div>
           </div>
         </div>

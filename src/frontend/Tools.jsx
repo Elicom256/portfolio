@@ -18,7 +18,7 @@ import SectionHeader from './SectionHeader';
 
 const Tools = () => {
   return (
-    <section className='px-4 py-10 md:px-10 pt-24'>
+    <section className='px-4 md:px-10 py-8'>
       <SectionHeader
         accent='Skills'
         title='Technology stacks I use every day'

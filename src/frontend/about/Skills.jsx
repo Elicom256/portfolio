@@ -1,13 +1,17 @@
 import React from 'react';
 
 const skills = [
-  'React',
-  'TailwindCSS',
-  'Solidity',
-  'Express.js',
-  'Node.js',
-  'MongoDB',
   'PostgreSQL',
+  'Express.js',
+  'React',
+  'Node.js',
+  'PHP',
+  'Laravel',
+  'TailwindCSS',
+  'Docker',
+  'CI/CD(Git Actions)',
+  'AI(LLM)',
+  'Solidity',
   'Chainlink',
   'Hardhat',
 ];

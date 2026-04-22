@@ -14,7 +14,7 @@ const Home = () => {
       <div className='relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-4 py-24 sm:px-6 lg:px-8'>
         <div className='flex flex-col gap-12 lg:flex-row lg:items-center lg:justify-between'>
           <div className='max-w-2xl space-y-6 text-center lg:text-left'>
-            <p className='text-sm uppercase tracking-[0.35em] text-amber-300/90'>Web2-first full-stack engineer</p>
+            <p className='text-sm uppercase tracking-[0.35em] text-amber-300/90'>Full-stack engineer</p>
             <h1 className='text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl'>
               Hi, I’m <span className='text-amber-300'>Elicom Elijah</span>, building secure and scalable Web2 systems.
             </h1>
@@ -63,21 +63,29 @@ const Home = () => {
         </div>
 
         <div className='mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-4'>
-          <div className='rounded-3xl border border-slate-800/80 bg-slate-900/80 p-5 text-center shadow-xl shadow-slate-950/10'>
-            <p className='text-sm uppercase tracking-[0.3em] text-slate-400'>Currently building</p>
-            <p className='mt-3 text-base font-semibold text-white'>Dating platform</p>
+          <div className='rounded-3xl border border-slate-800/80 bg-slate-900/80 p-5 text-center shadow-xl shadow-slate-950/10 hover:scale-103 transition-all duration-300 ease-in-out'>
+            <Link to='https://klassapp.xyz/' target='_blank'>
+              <p className='text-sm uppercase tracking-[0.3em] text-slate-400'>Live Work</p>
+              <p className='mt-3 text-base font-semibold text-white'>School management system</p>
+            </Link>
           </div>
-          <div className='rounded-3xl border border-slate-800/80 bg-slate-900/80 p-5 text-center shadow-xl shadow-slate-950/10'>
-            <p className='text-sm uppercase tracking-[0.3em] text-slate-400'>In progress</p>
-            <p className='mt-3 text-base font-semibold text-white'>School management system</p>
+          <div className='rounded-3xl border border-slate-800/80 bg-slate-900/80 p-5 text-center shadow-xl shadow-slate-950/10 hover:scale-103 transition-all duration-300 ease-in-out'>
+            <Link to='https://afro-invest.vercel.app/' target='_blank'>
+              <p className='text-sm uppercase tracking-[0.3em] text-slate-400'>Live work</p>
+              <p className='mt-3 text-base font-semibold text-white'>Afro Invest project</p>
+            </Link>
           </div>
-          <div className='rounded-3xl border border-slate-800/80 bg-slate-900/80 p-5 text-center shadow-xl shadow-slate-950/10'>
-            <p className='text-sm uppercase tracking-[0.3em] text-slate-400'>Live work</p>
-            <p className='mt-3 text-base font-semibold text-white'>Afro Invest project</p>
+          <div className='rounded-3xl border border-slate-800/80 bg-slate-900/80 p-5 text-center shadow-xl shadow-slate-950/10 hover:scale-103 transition-all duration-300 ease-in-out'>
+            <Link to='/'>
+              <p className='text-sm uppercase tracking-[0.3em] text-slate-400'>Next milestone</p>
+              <p className='mt-3 text-base font-semibold text-white'>Modern shop system</p>
+            </Link>
           </div>
-          <div className='rounded-3xl border border-slate-800/80 bg-slate-900/80 p-5 text-center shadow-xl shadow-slate-950/10'>
-            <p className='text-sm uppercase tracking-[0.3em] text-slate-400'>Next milestone</p>
-            <p className='mt-3 text-base font-semibold text-white'>Modern shop system</p>
+          <div className='rounded-3xl border border-slate-800/80 bg-slate-900/80 p-5 text-center shadow-xl shadow-slate-950/10 hover:scale-103 transition-all duration-300 ease-in-out'>
+            <Link to='https://af4-gilt.vercel.app/' target='_blank'>
+              <p className='text-sm uppercase tracking-[0.3em] text-slate-400'>Currently building</p>
+              <p className='mt-3 text-base font-semibold text-white'>Dating platform</p>
+            </Link>
           </div>
         </div>
       </div>
