@@ -10,14 +10,14 @@ const Footer = () => {
         <div className='grid gap-10 md:grid-cols-3'>
           <div className='space-y-4'>
             <p className='text-sm uppercase tracking-[0.35em] text-amber-300/80'>Elicom</p>
-            <h3 className='text-xl font-semibold text-white'>Modern Web systems built for scale.</h3>
-            <p className='text-slate-400'>
+            <h3 className='text-lg font-semibold text-white'>Modern Web systems built for scale.</h3>
+            <p className='text-slate-400 italic'>
               Secure apps with clean APIs, professional workflows, and strong product foundations.
             </p>
           </div>
 
           <div className='space-y-4'>
-            <h4 className='text-lg font-semibold text-white'>Quick links</h4>
+            <h4 className=' font-semibold text-white'>Quick links</h4>
             <div className='grid gap-3 text-slate-400'>
               <Link to='/' className='transition hover:text-amber-300'>
                 Home
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
 
           <div className='space-y-4'>
-            <h4 className='text-lg font-semibold text-white'>Connect</h4>
+            <h4 className=' font-semibold text-white'>Connect</h4>
             <div className='flex flex-wrap items-center gap-3'>
               <a
                 href='https://github.com/Elijah-ug'
@@ -81,7 +81,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='mt-10 border-t border-slate-800/70 pt-6 text-center text-sm text-slate-500'>
+        <div className='italic mt-10 border-t border-slate-800/70 pt-6 text-center text-sm text-slate-500'>
           &copy; {new Date().getFullYear()} Elijah Mugisha Elicom. All rights reserved.
         </div>
       </div>
