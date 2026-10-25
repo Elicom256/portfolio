@@ -1,105 +1,126 @@
-// styles.ts
-import { StyleSheet } from "@react-pdf/renderer";
+// styles.js — resume design system
+// Amber accent echoes the portfolio brand; near-black ink prints cleanly.
+import { StyleSheet } from '@react-pdf/renderer';
+
+const ACCENT = '#b45309'; // amber-700
+const INK = '#1e293b'; // slate-800
+const MUTED = '#5b6b7c'; // slate-ish grey for secondary text
 
 export const styles = StyleSheet.create({
   page: {
-    // padding: 32,
-    padding: 16,
-    fontSize: 11,
-    fontFamily: "Helvetica",
-    color: "#111",
+    padding: 26,
+    paddingTop: 22,
+    fontSize: 9.3,
+    fontFamily: 'Helvetica',
+    color: INK,
   },
 
+  // Header
   header: {
-    marginBottom: 12,
+    alignItems: 'center',
   },
-
   name: {
     fontSize: 20,
-    fontWeight: "bold",
-    textAlign: "center",
+    fontWeight: 'bold',
     letterSpacing: 4,
   },
-
+  accentBar: {
+    width: 44,
+    height: 2.2,
+    backgroundColor: ACCENT,
+    marginTop: 5,
+  },
   title: {
-    fontSize: 12,
-    marginTop: 4,
-  },
-
-  contactRow: {
-    flexDirection: "row",
+    fontSize: 10,
     marginTop: 6,
-    flexWrap: "wrap",
-    fontSize: 10.5,
+    letterSpacing: 0.8,
+    textAlign: 'center',
   },
-
+  contactRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    marginTop: 5,
+    fontSize: 8.6,
+  },
   contactItem: {
-    marginRight: 8,
+    color: MUTED,
+  },
+  contactLink: {
+    color: ACCENT,
+    textDecoration: 'none',
+  },
+  sep: {
+    marginHorizontal: 5,
+    color: '#9aa7b4',
   },
 
-  hr: {
-    height: 1,
-    backgroundColor: "#ccc",
-    marginVertical: 6,
+  // Sections
+  section: {
+    marginTop: 7,
   },
-
+  sectionTitleRow: {
+    borderBottomWidth: 1.1,
+    borderBottomColor: ACCENT,
+    paddingBottom: 2,
+    marginBottom: 5,
+  },
   sectionTitle: {
-    fontSize: 13,
-    fontWeight: "bold",
-    marginBottom: 4,
-    textTransform: "uppercase",
-    letterSpacing: 1.5,
+    fontSize: 10.3,
+    fontWeight: 'bold',
+    textTransform: 'uppercase',
+    letterSpacing: 2,
+    color: ACCENT,
   },
-
   paragraph: {
-    lineHeight: 1,
+    lineHeight: 1.3,
+    fontSize: 9.3,
   },
 
+  // Bullets
   bullet: {
-    flexDirection: "row",
-    marginBottom: 4,
+    flexDirection: 'row',
+    marginBottom: 2,
   },
-
+  bulletDot: {
+    width: 9,
+    fontSize: 9.3,
+    color: ACCENT,
+  },
   bulletText: {
     flex: 1,
-    lineHeight: 1,
+    lineHeight: 1.3,
+    fontSize: 9.3,
   },
 
-  twoCol: {
-    flexDirection: "column",
-    justifyContent: "space-between",
+  // Experience blocks
+  expBlock: {
+    marginBottom: 5,
   },
-
+  expHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'baseline',
+  },
   role: {
-    fontWeight: "bold",
-    fontSize: 11,
-    letterSpacing: 1.2,
+    fontWeight: 'bold',
+    fontSize: 10.4,
   },
-
-  date: {
-    fontSize: 10,
-    color: "#555",
+  dates: {
+    fontSize: 9,
+    color: ACCENT,
+    fontWeight: 'bold',
   },
-  descs: {
-    marginTop: 5,
-    marginLeft: 8,
-  },
-
-  descRow: {
-    flexDirection: "row",
-    marginBottom: 5, // vertical spacing between bullets
-  },
-
-  bulletDot: {
-    width: 10,
-    fontSize: 10,
+  orgLine: {
+    fontSize: 8.8,
+    color: MUTED,
     marginTop: 1,
+    marginBottom: 2.5,
   },
-
-  desc: {
-    flex: 1,
-    fontSize: 11,
-    lineHeight: 1.45, // THIS is what makes it breathe
-    color: "#222",
+  techLine: {
+    fontStyle: 'italic',
+    fontSize: 8.4,
+    color: MUTED,
+    marginTop: 2.5,
   },
 });

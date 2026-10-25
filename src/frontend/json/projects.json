@@ -1,34 +1,72 @@
 [
   {
     "title": "KlassApp",
-    "description": "A modern learning platform for students and educators.",
-    "content": "A web platform designed to improve learning access and classroom interaction through structured course delivery and user-friendly navigation.",
-    "github": "https://github.com/Elijah-ug/KlassApp",
-    "website": "https://klassapp.xyz/",
+    "role": "Co-founder",
+    "status": "Live",
+    "featured": true,
+    "description": "AI-native school management platform for African schools.",
+    "content": "KlassApp turns the tools schools already use into one intelligent layer. Toshi, the platform's AI assistant, orchestrates WhatsApp, Slack, spreadsheets and the dashboard: parents receive fee reminders and report cards on WhatsApp, teachers enter marks from spreadsheets, and admins run operations from Slack — with role-based access, audit trails and human-in-the-loop approvals on every consequential action.",
+    "highlights": [
+      "Toshi AI agent acting across WhatsApp, Slack, email, SMS and the dashboard",
+      "Automated fee reminders, attendance follow-ups and end-of-term reports",
+      "Role-based access control, audit trails and human-in-the-loop approvals",
+      "Open-source direction with MCP connector support"
+    ],
+    "stack": ["React", "Laravel", "PostgreSQL", "AI / LLM Agents"],
+    "github": "https://github.com/KlassApp-Foundation/KlassApp",
+    "website": "https://klassapp.xyz",
     "video": ""
   },
   {
-    "title": "E-commerce Platform",
-    "description": "A local marketplace connecting nearby buyers and sellers.",
-    "content": "A location-based e-commerce system that allows users to discover and purchase nearby products. It includes distance-based product matching and real-time notifications for newly listed items in a user's area.",
-    "github": "https://github.com/Elijah-ug/e-com",
-    "website": "https://shopping-cart-mauve-theta.vercel.app/",
+    "title": "AfroDuuka",
+    "role": "Founder",
+    "status": "Live",
+    "featured": true,
+    "description": "Inventory & retail operations platform for African businesses.",
+    "content": "AfroDuuka gives growing African retailers real-time control over stock, sales, suppliers and branches — replacing notebooks and spreadsheets. Shop owners get WhatsApp low-stock alerts, daily sales summaries, one-click profit & loss reports and an AI business assistant that answers questions about the business in plain language.",
+    "highlights": [
+      "Real-time inventory tracking across multiple branches",
+      "Automated WhatsApp low-stock alerts and daily sales summaries",
+      "Instant profit & loss reports and sales analytics",
+      "AfroDuuka Assistant — an AI advisor for inventory and sales decisions"
+    ],
+    "stack": ["React", "Laravel", "PostgreSQL", "WhatsApp API"],
+    "github": "",
+    "website": "https://afroduuka.app",
     "video": ""
   },
   {
     "title": "Afro Invest",
+    "role": "Developer",
+    "status": "Live",
+    "featured": false,
     "description": "A secure investment platform for African SMEs and investors.",
-    "content": "A full-stack PERN application (PostgreSQL, Express, React, Node.js, Prisma ORM) for managing investments, portfolios, and transactions with strong validation and scalable architecture.",
-    "github": "https://github.com/Elijah-ug/afro-invest",
+    "content": "A full-stack investment platform where SMEs and investors manage portfolios, track transactions and follow returns end-to-end. Built as a Node.js and Express API over PostgreSQL with Prisma, with JWT authentication, strict input validation on every financial figure and a componentized React dashboard — designed so each transaction is validated and auditable before it ever touches the database.",
+    "highlights": [
+      "Portfolio and transaction management with full validation",
+      "JWT authentication and auditable financial records",
+      "Express + Prisma service layer built for scale"
+    ],
+    "stack": ["React", "Node.js", "Express", "PostgreSQL", "Prisma"],
+    "github": "https://github.com/Elicom256/afro-invest",
     "website": "https://afro-invest.vercel.app/",
     "video": ""
   },
   {
-    "title": "UtilityBlocks",
-    "description": "A decentralized utility payment system for fast, transparent transactions.",
-    "content": "A blockchain-inspired utility payment platform where service providers register services and wallets, allowing users to pay directly with low fees, transparency, and improved transaction speed across multiple utility categories.",
-    "github": "https://github.com/Elijah-ug/decentralised-rentals-system",
-    "website": "https://project.com",
-    "video": "https://www.youtube.com/watch?v=qhYGMRE3SiM"
+    "title": "E-commerce Platform",
+    "role": "Developer",
+    "status": "Live",
+    "featured": false,
+    "description": "A local marketplace connecting nearby buyers and sellers.",
+    "content": "A location-based marketplace that matches buyers with sellers nearby: listings are ranked by distance, and users get real-time notifications the moment something they're looking for is listed in their area. React on the frontend with a Node.js API over PostgreSQL, and background jobs handling the distance matching and notification delivery so the feed stays instant.",
+    "highlights": [
+      "Distance-based product matching and ranking",
+      "Real-time alerts for new listings in a user's area",
+      "Background jobs for matching and notification delivery"
+    ],
+    "stack": ["React", "Node.js", "PostgreSQL"],
+    "github": "https://github.com/Elicom256/e-com",
+    "website": "https://shopping-cart-mauve-theta.vercel.app/",
+    "video": ""
   }
 ]
